@@ -7,6 +7,7 @@
 header{
     background-color: grey;
     background-image: url(../img/jumbo.png);
+    background-size: cover;
 }
 
 header nav{
@@ -75,6 +76,7 @@ nav{
 }
 
 #header-title{
+    padding-top: 50px;
     width: 60%;
     margin: auto;
     /* background-color: orange; */
