@@ -6,6 +6,7 @@
 
 header{
     background-color: grey;
+    background-image: url(../img/jumbo.png);
 }
 
 header nav{
@@ -14,24 +15,59 @@ header nav{
 }
 
 nav{
-    background-color: orangered;
+/*     background-color: orangered; */
     height: 100px;
 }
 
 #discord-logo-top{
     width: 10%;
-    background-color: lightgreen;
+    padding-top: 10px;
+    /* background-color: lightgreen; */
 }
 
 #menu{
+    padding-top: 10px;
     width: 50%;
-    background-color: lightgreen;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    /* background-color: lightgreen; */
 }
 
 #login{
     width: 10%;
-    background-color: lightgreen;
 }
+
+.button{
+    min-width: 124px;
+    height: 34px;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    border: 0px;
+    padding: 8px 4px;
+    margin-top: 10px;
+   
+}
+
+.flexButton{
+    display: flex;
+    justify-content: center;
+}
+
+#blackButton{
+    min-width: 124px;
+    height: 34px;
+    border-radius: 15px;
+    border: 0px;
+    padding: 8px 4px;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    margin-left: 10px;
+}
+
+
 
 .flexHeader{
     display: flex;
@@ -41,8 +77,24 @@ nav{
 #header-title{
     width: 60%;
     margin: auto;
-    background-color: orange;
-    height: 500px;
+    /* background-color: orange; */
+    height: 400px;
+}
+
+#titolo1{
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+    margin-bottom: 15px;
+}
+
+#sottotitolo1{
+    text-align: center;
+    color: white;
+    font-size: large;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-bottom: 15px;
 }
 
 .flexSection{
