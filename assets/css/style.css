@@ -235,11 +235,13 @@ li{
 }
 
 #scritte3{
+    width: 25%;
+    margin: auto;
     text-align: center;
     background-image: url(../img/stars.svg);
     display: inline-block;
     background-repeat: no-repeat;
-    /* background-size: 120%; */
+    background-size: contain;
     background-position: center;
     padding-top: 50px;
 
@@ -252,3 +254,30 @@ h4{
 .ultimoButtonMain{
     margin-bottom: 50px;
 }
+
+#language{
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+.fa-brands{
+    color: white;
+    /* font-weight: 400; */
+}
+
+/* .flexSocial{
+    display: flex;
+    flex-direction: column;
+} */
+/* 
+.fa-twitter{
+    font-size: 150px;
+    color: white;
+}
+
+.footer-social{
+    border: 3px solid red;
+    height: 100px;
+
+} */
